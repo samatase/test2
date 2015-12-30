@@ -19,7 +19,13 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @IBOutlet var stroggobutton: UIView!
 
+    @IBOutlet weak var stroggolabel: UILabel!
 
+    @IBAction func pressStrogg(sender: AnyObject) {
+        
+        stroggolabel.text = "StroggoMalakia"
+    }
 }
 
